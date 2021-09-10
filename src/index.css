@@ -1,3 +1,50 @@
 @import 'tailwindcss/dist/base.css';
 @import 'tailwindcss/dist/components.css';
 @import 'tailwindcss/dist/utilities.css';
+
+header { 
+    background: linear-gradient(207.8deg, #afe4a6 16.69%, #2dc013 100%);
+}
+
+.muy-grande {
+    font-size: 1.4rem;
+    text-align:start;
+    font-weight: 500;
+    display: block;
+    margin-block-start: 10em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} 
+
+.justify-position { 
+    
+    display: flex;
+    scroll-snap-align: center;
+    width: 50%;
+    height: 350px;
+    margin: 50px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 16%);
+    border-radius:8px;
+}
+
+.image-position { 
+    width: 200px;
+    height: 200px;
+
+}
+
+.price-position { 
+    position:absolute;
+    display: block;
+    left: calc(50% - 110px);
+    top: auto;
+    margin-block-start: 18em;
+    
+    
+}
+
+.descripcion { 
+
+}
